@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Milky-Vintage;
+    src: url(./Font/MilkyVintage-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Image/background.jpg);
+    background-size: cover;
+    margin: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: "Milky-Vintage";
+}
+
+
+/* HEADER */
+/* HEADER */
+
+header {
+    background-color: rgba(61, 43, 31, 0.8);
+    text-align: center;
+    color: #d8cbc7;
+    border-radius: 50px 10px;
+    box-shadow: 9px 5px 10px 2px #1d0c01;
+    margin: 2rem;
+}
+
+header > p {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 3.4rem
+}
+
+/* MAIN */
+/* MAIN */
+
+main {
+    
+    text-align: center;
+    color: #d8cbc7;
+    margin:2rem;
+    display: flex;
+}
+
+.spec {
+    padding: auto 0;
+    width: 50%;
+    height: 60%;
+    background-color:rgba(61, 43, 31, 0.8);
+    box-shadow: 9px 5px 10px 2px #1d0c01;
+    border-radius: 50px 10px;
+    margin-top: 10rem;
+   
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+
+}
+
+img {
+    width: 45%;
+    height: 45%;
+    background-color: #d8cbc7;
+    padding: 0.4rem;
+    margin: 0.3rem;
+    border-radius: 10%;
+}
+
+ul{
+    list-style: none;
+    text-align: start;
+    letter-spacing: 0.15rem;
+    line-height: 1.5rem;
+}
+
+.carac {
+    border-radius: 40px 0 0 0;
+    background-color: #030f16;
+    font-size: 2.3rem;
+}
+
+h3 {
+    text-align: center;
+    width: 93%;
+    background-color: #030f16;
+    font-size: 2rem;
+}
+
+p{
+    letter-spacing: 0.2rem;
+}
+
+.prix {
+    background-color: #D8CBC7 ;
+    color: #030f16;
+    margin-left: 25%;
+    box-shadow: 9px 5px 10px 2px #1d0c01;
+    border: 5px solid #8f9497;
+    border-radius: 40px;
+    padding: 0 4rem;
+    font-size: 1.3rem;
+}
+
+.prix:hover {
+    background-color: #030f16;
+    color: #d8cbc7;
+}
+
+
+/* FOOTER */
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:rgba(61, 43, 31, 0.8);
+    box-shadow: 9px 5px 10px 2px #1d0c01;
+    border-radius: 50px 10px;
+    padding: 1rem auto;
+    color: #d8cbc7;
+}
+
+footer > h2 {
+    background-color: #030f16;
+    border-radius: 40px 0 0 0;
+    font-size: 2rem;
+}
+
+
